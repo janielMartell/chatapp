@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "name": "chatapp",
+  "description": "Socket.io chat app developed for Negocea",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "author": "Janiel Martell",
+  "license": "ISC"
+}
