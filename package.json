@@ -4,8 +4,13 @@
   "description": "Socket.io chat app developed for Negocea",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
   },
   "author": "Janiel Martell",
-  "license": "ISC"
+  "private": true,
+  "license": "ISC",
+  "scripts": {
+    "start": "nodemon app.js"
+  }
 }
